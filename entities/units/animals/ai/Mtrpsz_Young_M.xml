@@ -1,0 +1,35 @@
+<BFTypedBinder binderType="Mtrpsz_Young_M">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Actinopterygii>
+                  <Perciformes>
+                     <Istiophoridae>
+                        <Mtrpsz>
+                           <Mtrpsz_Young>
+                              <Mtrpsz_Young_M/>
+                           </Mtrpsz_Young>
+                        </Mtrpsz>
+                     </Istiophoridae>
+                  </Perciformes>
+               </Actinopterygii>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\units\animals\Mtrpsz\Mtrpsz_Adult_F_icon.dds"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Mtrpsz_Young_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_Male="1"/>
+   </shared>
+</BFTypedBinder>
